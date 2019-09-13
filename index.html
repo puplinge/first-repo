@@ -16,7 +16,7 @@
   <script>
     document.queryString('h1').forEach(elt => elt.style.display = 'none');
 
-    setInterval(()=>{
+    setTimeout(()=>{
       document.querySelector('h1').forEach(elt=>elt.classList.toggle('blink'));
     }, 5000);
   </script>
